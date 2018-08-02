@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="2dp"
+    android:paddingTop="2dp">
+
+    <ImageView
+        android:id="@+id/single_song_video"
+        style="?attr/single_song_play"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="12dp"
+        android:padding="4dp" />
+
+    <TextView
+        android:id="@+id/single_song_play_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/single_song_video"
+        android:text="@string/single_song_play_all"
+        android:textColor="?attr/mainText"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="1dp"
+        android:layout_toEndOf="@+id/single_song_play_all"
+        android:text="@string/single_song_total_count"
+        android:textColor="?attr/thirdText"
+        android:textSize="12sp" />
+    <!--
+            style="?attr/single_song_select"
+                        android:drawablePadding="4dp"
+
+    -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:id="@+id/single_song_select"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="?attr/single_song_select"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_gravity="center_vertical"/>
+
+        <TextView
+            android:layout_gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginEnd="12dp"
+            android:gravity="center"
+            android:text="@string/single_song_select"
+            android:textColor="?attr/mainText" />
+    </LinearLayout>
+
+</RelativeLayout>

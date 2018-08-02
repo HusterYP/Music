@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/common_music_nav_root"
+    android:background="?attr/mainColor">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/common_music_nav_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toStartOf="@+id/common_music_nav_play" />
+
+    <com.example.yuanping.freemusic.view.PlayProgressBarCircle
+        android:id="@+id/common_music_nav_play"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toStartOf="@+id/common_music_nav_select"
+        app:radius="14dp" />
+
+    <ImageView
+        android:id="@+id/common_music_nav_select"
+        style="?attr/common_bottom_select"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="10dp" />
+
+</RelativeLayout>

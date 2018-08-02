@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">FreeMusic</string>
+    <string name="setting">Setting</string>
+    <string name="search">Search</string>
+    <string name="bt_setting">设置</string>
+    <string name="select_from_pic">从本地相册中选择</string>
+    <string name="select_from_cap">拍照</string>
+    <string name="cur_progress">00:00</string>
+    <string name="total_progress">00:00</string>
+    <string name="command">推荐</string>
+    <string name="mine">我的</string>
+    <string name="radio_station">电台</string>
+    <string name="music_mine_local">本地音乐</string>
+    <string name="music_mine_local_count">(0)</string>
+    <string name="music_mine_cur">最近播放</string>
+    <string name="music_mine_down_load">下载管理</string>
+    <string name="count_set">(%d)</string>
+    <string name="local_music_search">搜索本地音乐</string>
+    <string name="local_music_set">设置</string>
+    <string name="local_music_single_song">单曲</string>
+    <string name="local_music_singer">歌手</string>
+    <string name="local_music_album">专辑</string>
+    <string name="local_music_folder">文件夹</string>
+    <string name="single_song_play_all">全部播放</string>
+    <string name="single_song_total_count">(共0首)</string>
+    <string name="single_song_select">多选</string>
+</resources>

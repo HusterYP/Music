@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="DayTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="mainColor">#FFFFFF</item> <!--界面主题色-->
+        <item name="subText">#444444</item> <!--次要字体颜色-->
+        <item name="thirdText">#8A8A8A</item>
+        <item name="mainText">#000000</item> <!--主要字体颜色-->
+        <item name="toolbarText">#FFFFFF</item><!--Toolbar字体颜色-->
+        <item name="toolbar_background">#CD5555</item><!--toolbar背景色-->
+        <item name="toolbar_title_color">#000000</item><!--toolbar字体颜色-->
+        <item name="bt_change_state">@style/DayBtState</item>
+        <item name="bt_setting">@style/DayBtSetting</item>
+        <item name="tab_select">#FFFFFF</item><!--tabLayout上的字体被选中颜色-->
+        <item name="tab_unselect">#DBDBDB</item><!--tabLayout上没有被选中的字体颜色-->
+        <item name="swipe_refresh_pre">#CD5555</item><!--下拉刷新-->
+        <item name="swipe_refresh_background">#FFFFFF</item><!--下拉刷新-->
+        <item name="common_bottom_select">@style/DayBottomSelect</item><!--主界面底部公共的播放栏-->
+        <item name="music_play_main_text_color">#FFFFFF</item><!--音乐播放界面主要字体颜色-->
+        <item name="music_play_play">@style/DayMusicPlayPlay</item><!--音乐播放界面底部播放按钮-->
+        <item name="music_play_state">@style/DayMusicPlayState</item><!--音乐播放界面播放状态(循环,单曲,随机)-->
+        <item name="music_play_last_play">@style/DayMusicPlayLast</item><!--音乐播放界面上一曲-->
+        <item name="music_play_next_play">@style/DayMusicPlayNext</item><!--音乐播放界面下一曲-->
+        <item name="music_play_list_set">@style/DayMusicPlaySet</item><!--音乐播放界面播放列表设置-->
+        <item name="music_play_like">@style/DayMusicPlayLike</item><!--音乐播放界面喜欢-->
+        <item name="music_play_download">@style/DayMusicPlayDownload</item><!--音乐播放界面下载-->
+        <item name="music_play_msg">@style/DayMusicPlayMsg</item><!--音乐播放界面信息-->
+        <item name="music_play_set">@style/DayMusicPlaySetUp</item><!--音乐播放界面设置-->
+        <item name="music_mine_music">@style/DayMusicMineMusic</item><!--我的界面-本地音乐-->
+        <item name="music_mine_cur">@style/DayMusicMineCur</item><!--我的界面-最近播放-->
+        <item name="music_mine_download">@style/DayMusicMineDownLoad</item><!--我的界面-下载管理-->
+        <item name="single_song_play">@style/DaySingleSongPlay</item><!--本地音乐-单曲-->
+        <item name="single_song_select">@style/DaySingleSongSelect</item><!--本地音乐-单曲-->
+    </style>
+
+    <!--<item name="android:drawableStart">@mipmap/single_song_select_day</item>-->
+    <style name="DaySingleSongSelect">
+        <item name="android:background">@mipmap/single_song_select_day</item>
+    </style>
+
+    <style name="DaySingleSongPlay">
+        <item name="android:src">@mipmap/single_song_play_day</item>
+    </style>
+
+    <style name="DayMusicMineCur">
+        <item name="android:src">@mipmap/music_mine_cur_day</item>
+    </style>
+
+    <style name="DayMusicMineDownLoad">
+        <item name="android:src">@mipmap/music_mine_download_day</item>
+    </style>
+
+    <style name="DayMusicMineMusic">
+        <item name="android:src">@mipmap/music_mine_day</item>
+    </style>
+
+    <style name="DayMusicPlaySetUp">
+        <item name="android:src">@mipmap/music_play_set_day</item>
+    </style>
+
+    <style name="DayMusicPlayMsg">
+        <item name="android:src">@mipmap/music_play_msg_day</item>
+    </style>
+
+    <style name="DayMusicPlayDownload">
+        <item name="android:src">@mipmap/music_play_download_day</item>
+    </style>
+
+    <style name="DayMusicPlayLike">
+        <item name="android:src">@mipmap/music_play_unlike_day</item>
+    </style>
+
+    <style name="DayMusicPlayState">
+        <item name="android:src">@mipmap/list_loop_play_day</item>
+    </style>
+
+    <style name="DayMusicPlayLast">
+        <item name="android:src">@mipmap/last_play_day</item>
+    </style>
+
+    <style name="DayMusicPlayNext">
+        <item name="android:src">@mipmap/next_play_day</item>
+    </style>
+
+    <style name="DayMusicPlaySet">
+        <item name="android:src">@mipmap/bottom_music_nav_night</item>
+    </style>
+
+    <style name="DayMusicPlayPlay">
+        <item name="android:src">@mipmap/play_day</item>
+    </style>
+
+    <style name="DayBottomSelect">
+        <item name="android:src">@mipmap/bottom_music_nav_day</item>
+    </style>
+
+    <style name="DayBtState">
+        <item name="android:drawableStart">@mipmap/night</item>
+        <item name="android:text">@string/night_state</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="DayBtSetting">
+        <item name="android:drawableStart">@mipmap/set_night</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <string name="night_state">夜间模式</string>
+</resources>

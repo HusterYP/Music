@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Theme.AppCompat.Light.NoActionBar-->
+    <style name="NightTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="mainColor">#000000</item><!--界面主题色-->
+        <item name="subText">#444444</item><!--次要字体颜色-->
+        <item name="thirdText">#8A8A8A</item>
+        <item name="toolbarText">#8A8A8A</item><!--Toolbar字体颜色-->
+        <item name="mainText">#ffffff</item><!--主要字体颜色-->
+        <item name="toolbar_background">#000000</item><!--toolbar背景色-->
+        <item name="toolbar_title_color">#444444</item><!--toolbar字体颜色-->
+        <item name="bt_change_state">@style/NightBtState</item>
+        <item name="bt_setting">@style/NightBtSetting</item>
+        <item name="tab_select">#CD5555</item><!--tabLayout上的字体被选中颜色-->
+        <item name="tab_unselect">#DBDBDB</item><!--tabLayout上没有被选中的字体颜色-->
+        <item name="swipe_refresh_pre">#CD5555</item><!--下拉刷新-->
+        <item name="swipe_refresh_background">#444444</item><!--下拉刷新-->
+        <item name="common_bottom_select">@style/NightBottomSelect</item><!--主界面底部公共的播放栏-->
+        <item name="music_play_main_text_color">#444444</item><!--音乐播放界面主要字体颜色-->
+        <item name="music_play_play">@style/NightMusicPlayPlay</item><!--音乐播放界面底部播放按钮-->
+        <item name="music_play_state">@style/NightMusicPlayState</item><!--音乐播放界面播放状态(循环,单曲,随机)-->
+        <item name="music_play_last_play">@style/NightMusicPlayLast</item><!--音乐播放界面上一曲-->
+        <item name="music_play_next_play">@style/NightMusicPlayNext</item><!--音乐播放界面下一曲-->
+        <item name="music_play_list_set">@style/NightMusicPlaySet</item><!--音乐播放界面播放列表设置-->
+        <item name="music_play_like">@style/NightMusicPlayLike</item><!--音乐播放界面喜欢-->
+        <item name="music_play_download">@style/NightMusicPlayDownload</item><!--音乐播放界面下载-->
+        <item name="music_play_msg">@style/NightMusicPlayMsg</item><!--音乐播放界面信息-->
+        <item name="music_play_set">@style/NightMusicPlaySetUp</item><!--音乐播放界面设置-->
+        <item name="music_mine_music">@style/NightMusicMineMusic</item><!--我的界面-音乐-->
+        <item name="music_mine_cur">@style/NightMusicMineCur</item><!--我的界面-最近播放-->
+        <item name="music_mine_download">@style/NightMusicMineDownLoad</item><!--我的界面-下载管理-->
+        <item name="single_song_play">@style/NightSingleSongPlay</item><!--本地音乐-单曲-->
+        <item name="single_song_select">@style/NightSingleSongSelect</item><!--本地音乐-单曲-->
+    </style>
+
+    <!--<item name="android:drawableStart">@mipmap/single_song_select_night</item>-->
+    <style name="NightSingleSongSelect">
+        <item name="android:background">@mipmap/single_song_select_night</item>
+    </style>
+
+    <style name="NightSingleSongPlay">
+        <item name="android:src">@mipmap/single_song_play_night</item>
+    </style>
+
+    <style name="NightMusicMineCur">
+        <item name="android:src">@mipmap/music_mine_cur_night</item>
+    </style>
+
+    <style name="NightMusicMineDownLoad">
+        <item name="android:src">@mipmap/music_mine_download_night</item>
+    </style>
+
+    <style name="NightMusicMineMusic">
+        <item name="android:src">@mipmap/music_mine_night</item>
+    </style>
+
+    <style name="NightMusicPlaySetUp">
+        <item name="android:src">@mipmap/music_play_set_night</item>
+    </style>
+
+    <style name="NightMusicPlayMsg">
+        <item name="android:src">@mipmap/music_play_msg_night</item>
+    </style>
+
+    <style name="NightMusicPlayDownload">
+        <item name="android:src">@mipmap/music_play_download_night</item>
+    </style>
+
+    <style name="NightMusicPlayLike">
+        <item name="android:src">@mipmap/music_play_unlike_night</item>
+    </style>
+
+    <style name="NightMusicPlayState">
+        <item name="android:src">@mipmap/list_loop_play_night</item>
+    </style>
+
+    <style name="NightMusicPlayLast">
+        <item name="android:src">@mipmap/last_play_night</item>
+    </style>
+
+    <style name="NightMusicPlayNext">
+        <item name="android:src">@mipmap/next_play_night</item>
+    </style>
+
+    <style name="NightMusicPlaySet">
+        <item name="android:src">@drawable/ic_format_list_bulleted_black_24dp</item>
+    </style>
+
+    <style name="NightMusicPlayPlay">
+        <item name="android:src">@mipmap/play_night</item>
+    </style>
+
+    <style name="NightBottomSelect">
+        <item name="android:src">@mipmap/bottom_music_nav_night</item>
+    </style>
+
+
+    <style name="NightBtState">
+        <item name="android:text">@string/day_state</item>
+        <item name="android:drawableStart">@mipmap/brightness</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="NightBtSetting">
+        <item name="android:drawableStart">@mipmap/set_day</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <string name="day_state">日间模式</string>
+</resources>

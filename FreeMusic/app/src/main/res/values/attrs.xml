@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="mainColor" format="color" />
+    <attr name="subText" format="color" />
+    <attr name="thirdText" format="color" />
+    <attr name="mainText" format="color" />
+    <attr name="toolbar_background" format="color" />
+    <attr name="toolbar_title_color" format="color" />
+    <attr name="bt_change_state" format="reference" />
+    <attr name="bt_setting" format="reference" />
+    <attr name="tab_select" format="color" />
+    <attr name="tab_unselect" format="color" />
+    <attr name="swipe_refresh_pre" format="color" />
+    <attr name="swipe_refresh_background" format="color" />
+    <attr name="common_bottom_select" format="reference" />
+    <declare-styleable name="RoundRectImageView">
+        <attr name="radius_x" format="integer" />
+        <attr name="radius_y" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="PlayProgressBarCircle">
+        <attr name="stop_circle_color" format="color" /><!--暂停播放时,外圆颜色-->
+        <attr name="start_circle_color" format="color" /><!--正在播放时,外圆颜色-->
+        <attr name="progress_color" format="color" /><!--进度颜色-->
+        <attr name="stop_inner_color" format="color" /><!--暂停播放时,圆内部图案颜色-->
+        <attr name="start_inner_color" format="color" /><!--正在播放时,圆内部图案颜色-->
+        <attr name="radius" format="dimension" /><!--外圆半径-->
+        <attr name="circle_width" format="integer" /><!--外圆宽度-->
+    </declare-styleable>
+    <attr name="music_play_main_text_color" format="color" />
+    <attr name="music_play_play" format="reference" />
+    <attr name="music_play_state" format="reference" />
+    <attr name="music_play_last_play" format="reference" />
+    <attr name="music_play_next_play" format="reference" />
+    <attr name="music_play_list_set" format="reference" />
+    <attr name="music_play_like" format="reference" />
+    <attr name="music_play_download" format="reference" />
+    <attr name="music_play_msg" format="reference" />
+    <attr name="music_play_set" format="reference" />
+    <attr name="music_mine_music" format="reference" />
+    <attr name="music_mine_cur" format="reference" />
+    <attr name="music_mine_download" format="reference" />
+    <attr name="toolbarText" format="color" />
+    <attr name="single_song_play" format="reference" />
+    <attr name="single_song_select" format="reference" />
+</resources>

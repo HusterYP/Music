@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+    <Button
+        android:id="@+id/bt_change_state"
+        style="?attr/bt_change_state"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/bt_selector"
+        android:drawablePadding="10dp"
+        android:paddingStart="20dp"
+        android:textAlignment="textStart" />
+
+    <Button
+        android:id="@+id/setting"
+        style="?attr/bt_setting"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/bt_selector"
+        android:drawablePadding="10dp"
+        android:text="@string/bt_setting"
+        android:textAlignment="textStart" />
+
+</LinearLayout>

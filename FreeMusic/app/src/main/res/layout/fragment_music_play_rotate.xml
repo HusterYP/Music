@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.example.yuanping.freemusic.view.RotateBackCircle
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/music_play_rotate_pager"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="85dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true">
+
+            <ImageView
+                android:id="@+id/music_play_like"
+                style="?attr/music_play_like"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="30dp"
+                android:padding="12dp" />
+
+            <ImageView
+                android:id="@+id/music_play_download"
+                style="?attr/music_play_download"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@+id/music_play_like"
+                android:padding="12dp" />
+
+            <ImageView
+                android:id="@+id/music_play_msg"
+                style="?attr/music_play_msg"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginEnd="15dp"
+                android:layout_toStartOf="@+id/music_play_set"
+                android:padding="12dp" />
+
+            <ImageView
+                android:id="@+id/music_play_set"
+                style="?attr/music_play_set"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="30dp"
+                android:padding="12dp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/music_play_play_bar"
+        android:layout_width="108dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/play_bar" />
+
+</FrameLayout>

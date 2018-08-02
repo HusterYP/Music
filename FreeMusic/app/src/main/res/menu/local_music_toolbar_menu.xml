@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/local_music_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/local_music_search"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/local_music_set"
+        android:icon="@mipmap/music_play_set_day"
+        android:title="@string/local_music_set"
+        app:showAsAction="ifRoom"/>
+</menu>

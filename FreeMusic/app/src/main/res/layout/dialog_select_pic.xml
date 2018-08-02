@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/mainColor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/select_from_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_selector"
+        android:text="@string/select_from_pic"
+        android:textColor="?attr/mainText" />
+
+    <Button
+        android:id="@+id/select_from_cap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_selector"
+        android:text="@string/select_from_cap"
+        android:textColor="?attr/mainText" />
+
+</LinearLayout>

@@ -1,0 +1,136 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:18:1-37:12
+INJECTED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:18:1-37:12
+INJECTED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:18:1-37:12
+INJECTED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:18:1-37:12
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/0dec4aad5931f5ca39c5cf8741d36bcf/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/5eae2ee107a50f52fad938601b709d30/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/bd30cb3c2dd55069175a9505e6774c9e/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/a61198e7e40d7af83f1ff7798782c963/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/fbbd91d134ae586e7028bc6bf80e219b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/d3615bd0d31b19035193f49c3fa3379d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/efa6e8b949fc54b73a669e3545acffca/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/ba70b65c4568d814532b7a080e49649d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/a20faeb51161699030c39ec20deb9a0e/AndroidManifest.xml:17:1-31:12
+INJECTED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:18:1-37:12
+INJECTED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:18:1-37:12
+INJECTED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:18:1-37:12
+	package
+		ADDED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:19:11-58
+		INJECTED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml
+		INJECTED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml
+		ADDED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:18:1-37:12
+		INJECTED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml
+		ADDED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:18:1-37:12
+		INJECTED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:18:11-69
+application
+ADDED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:21:5-35:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/0dec4aad5931f5ca39c5cf8741d36bcf/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/0dec4aad5931f5ca39c5cf8741d36bcf/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/5eae2ee107a50f52fad938601b709d30/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/5eae2ee107a50f52fad938601b709d30/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/bd30cb3c2dd55069175a9505e6774c9e/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/bd30cb3c2dd55069175a9505e6774c9e/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/a61198e7e40d7af83f1ff7798782c963/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/a61198e7e40d7af83f1ff7798782c963/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/fbbd91d134ae586e7028bc6bf80e219b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/fbbd91d134ae586e7028bc6bf80e219b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/d3615bd0d31b19035193f49c3fa3379d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/d3615bd0d31b19035193f49c3fa3379d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/efa6e8b949fc54b73a669e3545acffca/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/efa6e8b949fc54b73a669e3545acffca/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/ba70b65c4568d814532b7a080e49649d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/ba70b65c4568d814532b7a080e49649d/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/a20faeb51161699030c39ec20deb9a0e/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/a20faeb51161699030c39ec20deb9a0e/AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:25:13-39
+	android:label
+		ADDED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:24:13-45
+	android:launchMode
+		ADDED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:26:13-43
+	android:icon
+		ADDED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:23:13-47
+	android:allowBackup
+		ADDED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:22:13-39
+	android:theme
+		ADDED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:27:13-44
+activity#com.example.android.mediaplayersample.MainActivity
+ADDED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:28:9-34:20
+	android:configChanges
+		ADDED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:29:19-54
+	android:name
+		ADDED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:28:19-84
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:30:13-33:29
+action#android.intent.action.MAIN
+ADDED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:31:17-68
+	android:name
+		ADDED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:32:17-76
+	android:name
+		ADDED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml:32:27-74
+uses-sdk
+INJECTED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml
+INJECTED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/0dec4aad5931f5ca39c5cf8741d36bcf/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/0dec4aad5931f5ca39c5cf8741d36bcf/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/5eae2ee107a50f52fad938601b709d30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/5eae2ee107a50f52fad938601b709d30/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/bd30cb3c2dd55069175a9505e6774c9e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/bd30cb3c2dd55069175a9505e6774c9e/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/a61198e7e40d7af83f1ff7798782c963/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/a61198e7e40d7af83f1ff7798782c963/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/fbbd91d134ae586e7028bc6bf80e219b/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/fbbd91d134ae586e7028bc6bf80e219b/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/d3615bd0d31b19035193f49c3fa3379d/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/d3615bd0d31b19035193f49c3fa3379d/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/efa6e8b949fc54b73a669e3545acffca/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/efa6e8b949fc54b73a669e3545acffca/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/ba70b65c4568d814532b7a080e49649d/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/ba70b65c4568d814532b7a080e49649d/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/a20faeb51161699030c39ec20deb9a0e/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/a20faeb51161699030c39ec20deb9a0e/AndroidManifest.xml:21:5-23:58
+INJECTED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml
+INJECTED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/0dec4aad5931f5ca39c5cf8741d36bcf/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml
+		ADDED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml
+		INJECTED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml
+		ADDED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml
+		INJECTED from /home/yuanping/Code/Android/Music/android-SimpleMediaPlayer/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/0dec4aad5931f5ca39c5cf8741d36bcf/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/5eae2ee107a50f52fad938601b709d30/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.4.0.aar/5eae2ee107a50f52fad938601b709d30/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/bd30cb3c2dd55069175a9505e6774c9e/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.4.0.aar/bd30cb3c2dd55069175a9505e6774c9e/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/a61198e7e40d7af83f1ff7798782c963/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-v4-25.4.0.aar/a61198e7e40d7af83f1ff7798782c963/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/fbbd91d134ae586e7028bc6bf80e219b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-fragment-25.4.0.aar/fbbd91d134ae586e7028bc6bf80e219b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/d3615bd0d31b19035193f49c3fa3379d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.4.0.aar/d3615bd0d31b19035193f49c3fa3379d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/efa6e8b949fc54b73a669e3545acffca/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.4.0.aar/efa6e8b949fc54b73a669e3545acffca/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/ba70b65c4568d814532b7a080e49649d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.4.0.aar/ba70b65c4568d814532b7a080e49649d/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/a20faeb51161699030c39ec20deb9a0e/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/support-compat-25.4.0.aar/a20faeb51161699030c39ec20deb9a0e/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/0dec4aad5931f5ca39c5cf8741d36bcf/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.4.0] /home/yuanping/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/0dec4aad5931f5ca39c5cf8741d36bcf/AndroidManifest.xml:27:13-51

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="default_progress_bar_outer_color">#8A8A8A</color><!--默认ProgressBar外层颜色-->
+    <color name="default_progress_bar_pre_color">#BFBFBF</color><!--默认ProgressBar预加载颜色-->
+    <color name="default_progress_bar_inner_color">#CD5555</color><!--默认ProgressBar内层颜色-->
+    <color name="default_progress_bar_circle_color">#FFFFFF</color><!--默认ProgressBar末尾圆形颜色-->
+    <color name="default_rotate_back_circle_color">#66CDCDCD</color><!--音乐播放旋转界面的背景圆-->
+    <color name="default_rotate_pre_circle_start_color">#000000</color><!--音乐播放旋转界面背景色-->
+    <color name="default_rotate_pre_circle_end_color">#2C2C2C</color><!--音乐播放旋转界面背景色-->
+    <color name="default_rotate_sencondary_circle_color">#000000</color><!--音乐播放界面次外层圆颜色-->
+</resources>

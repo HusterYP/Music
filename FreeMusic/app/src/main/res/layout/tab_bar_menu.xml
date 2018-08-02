@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/action_bar_music"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="26dp"
+        android:layout_toStartOf="@+id/action_bar_video"
+        android:background="@drawable/menu_music_selector" />
+
+    <ImageView
+        android:id="@+id/action_bar_video"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/menu_video_selector" />
+
+    <ImageView
+        android:id="@+id/action_bar_person"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="26dp"
+        android:layout_toEndOf="@+id/action_bar_video"
+        android:background="@drawable/menu_person_selector" />
+
+</RelativeLayout>
